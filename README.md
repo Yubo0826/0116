@@ -36,3 +36,7 @@ A: 首先先建立檔案 /etc/yum.repos.d/nginx.repo，在檔案內加入下方�
 這題可能我連線都成功，在error.log裡沒有資料，在access.log是紀錄檔案有成功連線的資料
 
 ![image](https://github.com/Yubo0826/0116/blob/master/5-1.PNG)
+
+使用grep -i -o -E "([0-9]{1,3}\.){3}[0-9]{1,3}" test1.txt | sort -n | uniq -c | sort -n -r | head -6 ，找出各個ip連線成功的次數。
+
+![image](https://github.com/Yubo0826/0116/blob/master/5.PNG)
